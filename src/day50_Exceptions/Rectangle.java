@@ -1,4 +1,4 @@
-package Exceptions;
+package day50_Exceptions;
 
 public class Rectangle {
 
