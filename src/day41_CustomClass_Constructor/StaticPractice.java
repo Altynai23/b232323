@@ -1,5 +1,7 @@
 package day41_CustomClass_Constructor;
 
+import sun.reflect.generics.tree.Tree;
+
 public class StaticPractice {
 
     static class Test{
@@ -21,6 +23,11 @@ public class StaticPractice {
 
         StaticPractice obj = new StaticPractice();
         // System.out.println( new StaticPractice.TestB. );
+
+
+        System.out.println("========");
+
+
 
     }
 
