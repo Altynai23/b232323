@@ -14,5 +14,9 @@ public final class Toyota extends Car{
         System.out.println("------------------------------");
     }
 
+    @Override
+    public void drive() {
+
+    }
 
 }

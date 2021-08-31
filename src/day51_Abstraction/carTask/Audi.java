@@ -14,6 +14,10 @@ public final class Audi extends Car{
         System.out.println("------------------------------");
     }
 
+    @Override
+    public void drive() {
+
+    }
 
 
 

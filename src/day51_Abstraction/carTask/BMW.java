@@ -14,4 +14,9 @@ public class BMW extends Car{
         System.out.println("Jump start");
         System.out.println("--------------------------");
     }
+
+    @Override
+    public void drive() {
+
+    }
 }
