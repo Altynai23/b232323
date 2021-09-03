@@ -1,4 +1,4 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
 public class Dog extends Animal implements Playable, Swimmable{
 

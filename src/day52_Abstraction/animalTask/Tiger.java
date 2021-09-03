@@ -1,6 +1,6 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
-public class Shark extends Animal implements Wild, Swimmable {
+public class Tiger extends Animal implements Wild, Swimmable{
 
     @Override
     public void sleep() {

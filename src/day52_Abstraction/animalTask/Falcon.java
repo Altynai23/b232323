@@ -1,6 +1,6 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
-public class Horse extends Animal implements Playable{
+public class Falcon extends Animal implements Wild, Flyable{
 
     @Override
     public void sleep() {
@@ -18,12 +18,12 @@ public class Horse extends Animal implements Playable{
     }
 
     @Override
-    public void play() {
+    public void fly() {
 
     }
 
     @Override
-    public void pet() {
+    public void hunt() {
 
     }
 }

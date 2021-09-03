@@ -1,4 +1,4 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
 public abstract class Animal {
 

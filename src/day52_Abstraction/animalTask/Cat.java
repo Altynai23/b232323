@@ -1,6 +1,6 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
-public class Dolphin extends Animal implements Wild, Playable, Swimmable {
+public class Cat extends Animal implements Playable{
 
     @Override
     public void sleep() {
@@ -26,14 +26,5 @@ public class Dolphin extends Animal implements Wild, Playable, Swimmable {
     public void pet() {
 
     }
-
-    @Override
-    public void swim() {
-
-    }
-
-    @Override
-    public void hunt() {
-
-    }
 }
+

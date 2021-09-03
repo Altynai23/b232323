@@ -1,6 +1,6 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
-public class Cat extends Animal implements Playable{
+public class Cow extends Animal implements  Playable, Swimmable{
 
     @Override
     public void sleep() {
@@ -26,5 +26,10 @@ public class Cat extends Animal implements Playable{
     public void pet() {
 
     }
-}
 
+    @Override
+    public void swim() {
+
+    }
+
+}

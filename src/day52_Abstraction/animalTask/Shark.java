@@ -1,6 +1,6 @@
-package Day52_Abstraction.animalTask;
+package day52_Abstraction.animalTask;
 
-public class Eagle extends Animal implements Wild, Flyable{
+public class Shark extends Animal implements Wild, Swimmable {
 
     @Override
     public void sleep() {
@@ -18,7 +18,7 @@ public class Eagle extends Animal implements Wild, Flyable{
     }
 
     @Override
-    public void fly() {
+    public void swim() {
 
     }
 
@@ -26,5 +26,4 @@ public class Eagle extends Animal implements Wild, Flyable{
     public void hunt() {
 
     }
-
 }
